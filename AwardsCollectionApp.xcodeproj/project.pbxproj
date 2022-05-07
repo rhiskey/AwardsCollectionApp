@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B0153992826A79D00B501D4 /* CustomAchievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0153982826A79D00B501D4 /* CustomAchievement.swift */; };
+		5B01539B2826E0F400B501D4 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B01539A2826E0F400B501D4 /* HexagonParameters.swift */; };
+		5B01539D2826E11A00B501D4 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B01539C2826E11A00B501D4 /* BadgeBackground.swift */; };
+		5B0153A02826E1BE00B501D4 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B01539F2826E1BE00B501D4 /* BadgeSymbol.swift */; };
+		5B0153A22826E2CA00B501D4 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0153A12826E2CA00B501D4 /* Badge.swift */; };
+		5B0153A42826E2DB00B501D4 /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0153A32826E2DB00B501D4 /* RotatedBadgeSymbol.swift */; };
+		A89D0931267B76D400C1FB66 /* AwardsCollectionAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89D0930267B76D400C1FB66 /* AwardsCollectionAppApp.swift */; };
+		A89D0933267B76D400C1FB66 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89D0932267B76D400C1FB66 /* MainView.swift */; };
+		A89D0935267B76D600C1FB66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A89D0934267B76D600C1FB66 /* Assets.xcassets */; };
+		A89D0938267B76D600C1FB66 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A89D0937267B76D600C1FB66 /* Preview Assets.xcassets */; };
+		A89D0940267B777E00C1FB66 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89D093F267B777E00C1FB66 /* StarterView.swift */; };
+		A89D0942267B77C800C1FB66 /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89D0941267B77C800C1FB66 /* AwardsView.swift */; };
+		A8E1B481267B7967005E98AA /* CurvesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E1B480267B7967005E98AA /* CurvesView.swift */; };
+		A8E1B483267B7972005E98AA /* GradientRectangles.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E1B482267B7972005E98AA /* GradientRectangles.swift */; };
+		A8E1B485267B7979005E98AA /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E1B484267B7978005E98AA /* PathView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B0153982826A79D00B501D4 /* CustomAchievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAchievement.swift; sourceTree = "<group>"; };
+		5B01539A2826E0F400B501D4 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		5B01539C2826E11A00B501D4 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
+		5B01539F2826E1BE00B501D4 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
+		5B0153A12826E2CA00B501D4 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		5B0153A32826E2DB00B501D4 /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
+		A89D092D267B76D400C1FB66 /* AwardsCollectionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwardsCollectionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A89D0930267B76D400C1FB66 /* AwardsCollectionAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsCollectionAppApp.swift; sourceTree = "<group>"; };
+		A89D0932267B76D400C1FB66 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		A89D0934267B76D600C1FB66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A89D0937267B76D600C1FB66 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A89D0939267B76D600C1FB66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A89D093F267B777E00C1FB66 /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
+		A89D0941267B77C800C1FB66 /* AwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
+		A8E1B480267B7967005E98AA /* CurvesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurvesView.swift; sourceTree = "<group>"; };
+		A8E1B482267B7972005E98AA /* GradientRectangles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientRectangles.swift; sourceTree = "<group>"; };
+		A8E1B484267B7978005E98AA /* PathView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A89D092A267B76D400C1FB66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B01539E2826E1B200B501D4 /* Badge */ = {
+			isa = PBXGroup;
+			children = (
+				5B01539A2826E0F400B501D4 /* HexagonParameters.swift */,
+				5B01539C2826E11A00B501D4 /* BadgeBackground.swift */,
+				5B01539F2826E1BE00B501D4 /* BadgeSymbol.swift */,
+				5B0153A12826E2CA00B501D4 /* Badge.swift */,
+				5B0153A32826E2DB00B501D4 /* RotatedBadgeSymbol.swift */,
+			);
+			path = Badge;
+			sourceTree = "<group>";
+		};
+		A89D0924267B76D400C1FB66 = {
+			isa = PBXGroup;
+			children = (
+				A89D092F267B76D400C1FB66 /* AwardsCollectionApp */,
+				A89D092E267B76D400C1FB66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A89D092E267B76D400C1FB66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A89D092D267B76D400C1FB66 /* AwardsCollectionApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A89D092F267B76D400C1FB66 /* AwardsCollectionApp */ = {
+			isa = PBXGroup;
+			children = (
+				A89D0930267B76D400C1FB66 /* AwardsCollectionAppApp.swift */,
+				A89D093F267B777E00C1FB66 /* StarterView.swift */,
+				A89D0932267B76D400C1FB66 /* MainView.swift */,
+				A89D0941267B77C800C1FB66 /* AwardsView.swift */,
+				A8E1B482267B7972005E98AA /* GradientRectangles.swift */,
+				A8E1B484267B7978005E98AA /* PathView.swift */,
+				A8E1B480267B7967005E98AA /* CurvesView.swift */,
+				A89D0934267B76D600C1FB66 /* Assets.xcassets */,
+				A89D0939267B76D600C1FB66 /* Info.plist */,
+				A89D0936267B76D600C1FB66 /* Preview Content */,
+				5B0153982826A79D00B501D4 /* CustomAchievement.swift */,
+				5B01539E2826E1B200B501D4 /* Badge */,
+			);
+			path = AwardsCollectionApp;
+			sourceTree = "<group>";
+		};
+		A89D0936267B76D600C1FB66 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A89D0937267B76D600C1FB66 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A89D092C267B76D400C1FB66 /* AwardsCollectionApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A89D093C267B76D600C1FB66 /* Build configuration list for PBXNativeTarget "AwardsCollectionApp" */;
+			buildPhases = (
+				A89D0929267B76D400C1FB66 /* Sources */,
+				A89D092A267B76D400C1FB66 /* Frameworks */,
+				A89D092B267B76D400C1FB66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AwardsCollectionApp;
+			productName = AwardsCollectionApp;
+			productReference = A89D092D267B76D400C1FB66 /* AwardsCollectionApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A89D0925267B76D400C1FB66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					A89D092C267B76D400C1FB66 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = A89D0928267B76D400C1FB66 /* Build configuration list for PBXProject "AwardsCollectionApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A89D0924267B76D400C1FB66;
+			productRefGroup = A89D092E267B76D400C1FB66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A89D092C267B76D400C1FB66 /* AwardsCollectionApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A89D092B267B76D400C1FB66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A89D0938267B76D600C1FB66 /* Preview Assets.xcassets in Resources */,
+				A89D0935267B76D600C1FB66 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A89D0929267B76D400C1FB66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8E1B481267B7967005E98AA /* CurvesView.swift in Sources */,
+				5B0153A22826E2CA00B501D4 /* Badge.swift in Sources */,
+				A89D0942267B77C800C1FB66 /* AwardsView.swift in Sources */,
+				A89D0933267B76D400C1FB66 /* MainView.swift in Sources */,
+				5B01539D2826E11A00B501D4 /* BadgeBackground.swift in Sources */,
+				5B01539B2826E0F400B501D4 /* HexagonParameters.swift in Sources */,
+				5B0153A02826E1BE00B501D4 /* BadgeSymbol.swift in Sources */,
+				A8E1B485267B7979005E98AA /* PathView.swift in Sources */,
+				A89D0931267B76D400C1FB66 /* AwardsCollectionAppApp.swift in Sources */,
+				A89D0940267B777E00C1FB66 /* StarterView.swift in Sources */,
+				5B0153A42826E2DB00B501D4 /* RotatedBadgeSymbol.swift in Sources */,
+				5B0153992826A79D00B501D4 /* CustomAchievement.swift in Sources */,
+				A8E1B483267B7972005E98AA /* GradientRectangles.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A89D093A267B76D600C1FB66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A89D093B267B76D600C1FB66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A89D093D267B76D600C1FB66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AwardsCollectionApp/Preview Content\"";
+				DEVELOPMENT_TEAM = GBTTU32HS2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AwardsCollectionApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.swiftbook.AwardsCollectionApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A89D093E267B76D600C1FB66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AwardsCollectionApp/Preview Content\"";
+				DEVELOPMENT_TEAM = GBTTU32HS2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AwardsCollectionApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.swiftbook.AwardsCollectionApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A89D0928267B76D400C1FB66 /* Build configuration list for PBXProject "AwardsCollectionApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A89D093A267B76D600C1FB66 /* Debug */,
+				A89D093B267B76D600C1FB66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A89D093C267B76D600C1FB66 /* Build configuration list for PBXNativeTarget "AwardsCollectionApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A89D093D267B76D600C1FB66 /* Debug */,
+				A89D093E267B76D600C1FB66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A89D0925267B76D400C1FB66 /* Project object */;
+}
